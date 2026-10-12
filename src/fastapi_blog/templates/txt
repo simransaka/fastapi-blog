@@ -1,0 +1,30 @@
+home.html
+
+<!-- {% extends "layout.html" %}
+{% block content %}
+    <p>This is using a template!</p>
+    {% for post in posts %}
+        <h2>{{ post.id }}</h2>
+        <p>{{ post.title }}</p>
+    {% endfor %}
+{% endblock content %} -->
+
+
+layout.html 
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            {% if title %}
+            FastAPI Blog - {{ title }}
+            {% else %}
+            FastAPI Blog
+            {% endif %}
+        </title>
+    </head>
+    <body>
+        {% block content %}
+        {% endblock content %}
+    </body>
+</html> -->
